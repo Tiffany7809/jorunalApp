@@ -1,0 +1,100 @@
+:root{ 
+    --Dark: rgb(7, 0, 22);
+    --Border:rgb(228, 205, 75);
+    --Text: antiquewhite;
+
+
+}
+* {
+    text-align: center;
+}
+h3 {
+    font-family: 'Marck Script', cursive;
+    text-decoration: underline;
+}
+
+.accordion-body {
+    background-image: url('/public/images/Paper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Shadows Into Light', cursive;
+  }
+.accordion-header {
+    font-family: 'Marck Script', cursive;
+  
+}
+
+body {
+    background-image: url('/public/images/Homepage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* CARD STYLE */
+.card {
+    border: solid rgb(228, 205, 75) 1px;
+    margin: 0 auto;
+    width: 50%;
+    padding: 10px;
+    height: 500px;
+    background-color: rgb(7, 0, 22);
+    color:antiquewhite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.HerbCard {
+    border: solid rgb(228, 205, 75) 1px;
+    margin: 0 auto;
+    width: 70%;
+    padding: 90px;
+    background-color: rgb(7, 0, 22);
+    color:antiquewhite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+   
+   
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid var(--Border);
+    background-color: var(--Dark);
+    font-family: 'Marck Script', cursive;
+    
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: var(--Dark);
+    color: var(--Text);
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: var(--Border);
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: var(--Border);
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+  }

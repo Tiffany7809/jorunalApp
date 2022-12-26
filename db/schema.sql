@@ -1,0 +1,23 @@
+DROP DATABASE IF EXISTS journal_db;
+
+CREATE DATABASE journal_db;
+
+USE journal_db;
+
+CREATE TABLE crystals (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    description VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE herbs (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    description VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE dreams (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    description VARCHAR(100) NOT NULL
+);

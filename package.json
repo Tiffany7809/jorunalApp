@@ -1,0 +1,28 @@
+{
+  "name": "jornalapp",
+  "version": "1.0.0",
+  "description": "A Place for your Thoughts",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "node seeds/server.js"
+  },
+  "author": "Tiffany",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^6.1.1",
+    "dotenv": "^8.6.0",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "node": "^19.3.0",
+    "sequelize": "^6.28.0"
+  },
+  "engines": {
+    "node": "^16.14.2",
+    "npm": "^8.5.0"
+  }
+}
